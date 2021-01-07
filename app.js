@@ -9,7 +9,7 @@ var postRouter = require('./routes/posts');
 
 var app = express();
 
-// view engine setup
+// view engine
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
